@@ -1,0 +1,11 @@
+<!-- custom_list_item.xml -->
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/customTextView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/lato_regular"
+    android:padding="8dp"
+    android:textAlignment="viewStart"
+    android:textColor="#A26235"
+    android:textSize="20sp"
+    android:textStyle="bold" />

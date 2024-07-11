@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MeowiesProject</string>
+    <string name="usuario">User</string>
+    <string name="contraseña">Password</string>
+    <string name="loginButton">Log in</string>
+    <string name="editTextUsuario">Enter your user name or e-mail</string>
+    <string name="registrarTitulo">REGISTER</string>
+    <string name="nombreHint">Enter your e-mail</string>
+    <string name="apellidosRegistro">Name and Surname</string>
+    <string name="apellidosHint">Enter your name and surname</string>
+    <string name="nicknameRegistro">Nickname</string>
+    <string name="nicknameHint">Enter your nickname</string>
+    <string name="fechaNacimientoRegistro">Date of birth</string>
+    <string name="fechaNacimientoHint">Select your date of birth</string>
+    <string name="registrarBoton">Register</string>
+    <string name="contraseñaRegistro">Password</string>
+    <string name="contraseñaHint">Enter your password</string>
+    <string name="subirArchivo">UPLOAD VIDEO</string>
+    <string name="subirBoton">Upload</string>
+    <string name="seleccionarBoton">Select a video</string>
+    <string name="tituloVideo">Title</string>
+    <string name="tituloHint">"Enter a title for your video "</string>
+    <string name="descripcionVideo">Description</string>
+    <string name="descripcionHint">"Enter a description for your video "</string>
+    <string name="nombreRegistro">E-mail</string>
+    <string name="botonSubir">Upload</string>
+    <string name="usuarioFollowing">Following</string>
+    <string name="usuarioFollowers">Followers</string>
+    <string name="siguiendoBarraNav">Following</string>
+    <string name="paratiBarraNav">For you</string>
+    <string name="comentariosTitulo">Comments</string>
+    <string name="comentariosHint">Write a comment</string>
+    <string name="botonAdd">Add</string>
+    <string name="editTextContraseña">Enter your password</string>
+    <string name="inicioRegistroBoton">Register</string>
+    <string name="contraseñaVerificacionHint">Enter your password again</string>
+    <string name="checkbox">Accept terms and conditions</string>
+
+</resources>

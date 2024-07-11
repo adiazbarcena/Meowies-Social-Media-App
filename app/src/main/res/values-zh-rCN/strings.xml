@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MeowiesProject</string>
+    <string name="usuario">用户</string>
+    <string name="contraseña">密码</string>
+    <string name="loginButton">登录</string>
+    <string name="editTextUsuario">请输入用户名或电子邮件</string>
+    <string name="registrarTitulo">注册</string>
+    <string name="nombreHint">请输入电子邮件</string>
+    <string name="apellidosRegistro">姓名</string>
+    <string name="apellidosHint">输入姓名</string>
+    <string name="nicknameRegistro">用户名</string>
+    <string name="nicknameHint">请输入用户名</string>
+    <string name="fechaNacimientoRegistro">出生日期</string>
+    <string name="fechaNacimientoHint">请选择出生日期</string>
+    <string name="registrarBoton">注册</string>
+    <string name="contraseñaRegistro">密码</string>
+    <string name="contraseñaHint">请输入密码</string>
+    <string name="subirArchivo">上传视频</string>
+    <string name="subirBoton">上载</string>
+    <string name="seleccionarBoton">选择视频</string>
+    <string name="tituloVideo">标题</string>
+    <string name="tituloHint">请输入视频的标题</string>
+    <string name="descripcionVideo">描述</string>
+    <string name="descripcionHint">请输入视频的描述</string>
+    <string name="usuarioFollowing">关于</string>
+    <string name="usuarioFollowers">粉丝</string>
+    <string name="editTextContraseña">请输入密码</string>
+    <string name="inicioRegistroBoton">注册</string>
+    <string name="nombreRegistro">电子邮件</string>
+    <string name="botonSubir">上载</string>
+    <string name="siguiendoBarraNav">关于</string>
+    <string name="paratiBarraNav">推荐</string>
+    <string name="comentariosTitulo">条评论</string>
+    <string name="comentariosHint">"请键入您的评论 "</string>
+    <string name="botonAdd">添加</string>
+    <string name="contraseñaVerificacionHint">请输入密码</string>
+    <string name="checkbox">条款和条件</string>
+</resources>

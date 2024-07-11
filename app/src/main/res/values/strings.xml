@@ -1,0 +1,76 @@
+<resources>
+
+    //PRINCIPAL
+    <string name="app_name">Meowies</string>
+    <string name="usuario">Usuario</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="loginButton">Iniciar sesión</string>
+    <string name="editTextUsuario">Introduzca su nombre de usuario o e-mail</string>
+    <string name="editTextContraseña">Introduzca su contraseña</string>
+    <string name="inicioRegistroBoton">Registrarse</string>
+
+    //REGISTRO
+    <string name="registrarTitulo">REGISTRO</string>
+    <string name="nombreRegistro">E-mail</string>
+    <string name="nombreHint">Introduzca su e-mail</string>
+    <string name="apellidosRegistro">Nombre y Apellidos</string>
+    <string name="apellidosHint">Introduzca su nombre y apellidos</string>
+    <string name="nicknameRegistro">Nickname</string>
+    <string name="nicknameHint">Introduzca su alias</string>
+    <string name="fechaNacimientoRegistro">Fecha de Nacimiento</string>
+    <string name="fechaNacimientoHint">Seleccione fecha de nacimiento</string>
+    <string name="registrarBoton">Registrar</string>
+    <string name="contraseñaRegistro">Contraseña</string>
+    <string name="contraseñaHint">Introduzca su contraseña</string>
+    <string name="contraseñaVerificacionHint">Introduzca su contraseña de nuevo</string>
+    <string name="checkbox">Aceptar términos y condiciones</string>
+
+    <string name="terms_conditions" translatable="false">
+    <![CDATA[
+    <h2>Términos y Condiciones de Uso de Meowies</h2>
+    <h3>INFORMACIÓN RELEVANTE:</h3>
+    <p>Es requisito necesario para el uso de la aplicación móvil Meowies que leas y aceptes los siguientes Términos y Condiciones que a continuación se redactan. El uso de nuestra aplicación implicará que has leído y aceptado los Términos y Condiciones de Uso en el presente documento. Meowies es una aplicación de redes sociales tipo TikTok y no ofrece ningún boletín por correo electrónico ni productos de pago.</p>
+    <h3>LICENCIA:</h3>
+    <p>Meowies concede una licencia limitada, no exclusiva, revocable y no transferible para el uso de la aplicación móvil Meowies de acuerdo con los Términos y Condiciones descritos en este documento.</p>
+    <h3>USO NO AUTORIZADO:</h3>
+    <p>No puedes modificar, copiar, distribuir, transmitir, mostrar, realizar, reproducir, publicar, licenciar, crear trabajos derivados, transferir o vender ninguna información, software, productos o servicios obtenidos de Meowies.</p>
+    <h3>PROPIEDAD:</h3>
+    <p>Todos los derechos de propiedad intelectual de la aplicación móvil Meowies y su contenido son propiedad de sus respectivos propietarios y están protegidos por las leyes de propiedad intelectual aplicables. No se otorga ninguna licencia ni derecho sobre dichos derechos de propiedad intelectual.</p>
+    <h3>POLÍTICA DE PRIVACIDAD:</h3>
+    <p>Meowies garantiza la privacidad y seguridad de la información personal que recopilamos. Los datos proporcionados por los usuarios no serán entregados a terceros, salvo que deba ser revelada en cumplimiento a una orden judicial o requerimientos legales. No se recopila información para boletines por correo electrónico ni para la adquisición de productos o servicios.</p>
+    <h3>CONTACTO:</h3>
+    <p>Para cualquier duda o consulta relacionada con la aplicación móvil Meowies, puedes contactarnos a través de nuestro formulario en línea en <a href="https://meowies.odoo.com/contactus">https://meowies.odoo.com/contactus</a>.</p>
+    <h3>CAMBIOS EN LOS TÉRMINOS Y CONDICIONES:</h3>
+    <p>Meowies se reserva el derecho de cambiar o modificar estos Términos y Condiciones en cualquier momento y sin previo aviso. Es responsabilidad del usuario revisar periódicamente los Términos y Condiciones para estar al tanto de las modificaciones.</p>
+    ]]>
+</string>
+
+    //SUBIR ARCHIVO
+    <string name="subirArchivo">SUBIR VÍDEO</string>
+    <string name="subirBoton">Subir</string>
+    <string name="seleccionarBoton">Seleccionar vídeo</string>
+    <string name="tituloVideo">Título</string>
+    <string name="tituloHint">Introduzca el título de su vídeo</string>
+    <string name="descripcionVideo">Descripción</string>
+    <string name="descripcionHint">Introduzca la descripción de su vídeo</string>
+    <string name="botonSubir">Subir</string>
+
+    //PERFIL
+    <string name="arrobaUsuario" translatable="false">s</string>
+    <string name="usuarioFollowing">Siguiendo</string>
+    <string name="usuarioFollowers">Seguidores</string>
+    <string name="usuarioLikes" translatable="false">Likes</string>
+
+    //BARRA NAV
+    <string name="siguiendoBarraNav">Siguiendo</string>
+    <string name="paratiBarraNav">Para ti</string>
+
+    //COMENTARIOS
+    <string name="comentariosTitulo">Comentarios</string>
+    <string name="comentariosHint">Escribe un nuevo comentario</string>
+    <string name="botonAdd">Añadir</string>
+
+    <string name="google_maps_key" translatable="false">AIzaSyCpqNCiicoQo9RdLG_s-pRLiNSTcqfnklU</string>
+
+
+</resources>

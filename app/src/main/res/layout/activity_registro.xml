@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFCC84"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tituloVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/lato_regular"
+        android:text="@string/registrarTitulo"
+        android:textColor="#A26235"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.049" />
+
+    <ImageView
+        android:id="@+id/gato_logo"
+        android:layout_width="103dp"
+        android:layout_height="96dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo_gato"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <Button
+        android:id="@+id/loginBoton"
+        android:layout_width="275dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#4AF69319"
+        android:fontFamily="@font/lato_regular"
+        android:padding="10dp"
+        android:text="@string/registrarBoton"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="381dp"
+        android:layout_height="724dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.453">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/lato_regular"
+            android:text="@string/nombreRegistro"
+            android:textColor="#A26235"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextNombre"
+            android:layout_width="360dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/alegreya"
+            android:hint="@string/nombreHint"
+            android:inputType="text"
+            android:textColor="#A26235" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="@string/apellidosRegistro"
+            android:textColor="#A26235"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextApellidos"
+            android:layout_width="360dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/alegreya"
+            android:hint="@string/apellidosHint"
+            android:inputType="text"
+            android:textColor="#A26235" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="@string/nicknameRegistro"
+            android:textColor="#A26235"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextNickname"
+            android:layout_width="360dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/alegreya"
+            android:hint="@string/nicknameHint"
+            android:inputType="text"
+            android:textColor="#A26235" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="@string/fechaNacimientoRegistro"
+            android:textColor="#A26235"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextFechaNacimiento"
+            android:layout_width="360dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/alegreya"
+            android:hint="@string/fechaNacimientoHint"
+            android:inputType="none"
+            android:textColor="#A26235" /> <!-- Establece el tipo de entrada como "none" para deshabilitar el teclado virtual -->
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="@string/contraseñaRegistro"
+            android:textColor="#A26235"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextContra"
+            android:layout_width="360dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/alegreya"
+            android:hint="@string/contraseñaHint"
+            android:inputType="textPassword"
+            android:textColor="#A26235" />
+
+        <EditText
+            android:id="@+id/editTextContra2"
+            android:layout_width="360dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:fontFamily="@font/alegreya"
+            android:hint="@string/contraseñaVerificacionHint"
+            android:inputType="textPassword"
+            android:textColor="#A26235" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
